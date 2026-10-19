@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Testing">
+
+    <test name="Smoke Tests">
+        <classes>
+            <class name="login.LoginTest"/>
+            <class name="product.ProductTest"/>
+            <class name="system.SystemTest"/>
+        </classes>
+    </test>
+
+</suite>

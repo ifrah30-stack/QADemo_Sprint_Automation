@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Negative Testing Suite" verbose="1">
+
+    <test name="Negative Tests">
+        <groups>
+            <run>
+                <include name="Neg"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="login.LoginTest"/>
+            <class name="product.ProductTest"/>
+            <class name="cart.CartTest"/>
+            <class name="checkout.CheckoutTest"/>
+            <class name="ordermanagement.OrderManagementTest"/>
+        </classes>
+    </test>
+
+</suite>

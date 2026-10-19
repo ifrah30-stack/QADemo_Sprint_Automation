@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Batch Suite">
+
+    <suite-files>
+        <suite-file path="FunctionalTesting.xml"/>
+        <suite-file path="IntegrationTesting.xml"/>
+        <suite-file path="SystemTesting.xml"/>
+        <suite-file path="SmokeTesting.xml"/>
+        <suite-file path="Negative.xml"/>
+    </suite-files>
+
+</suite>

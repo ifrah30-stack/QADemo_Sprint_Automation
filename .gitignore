@@ -1,0 +1,17 @@
+# Maven build output
+target/
+
+# Test reports
+test-output/
+
+# Screenshots
+Screenshots/
+
+# Eclipse workspace files
+.settings/
+.classpath
+.project
+
+# Local test data - do not upload
+TestData.xlsx
+TestData/
